@@ -44,7 +44,6 @@ export default class ChangeCity extends Component {
 
 
   render_Image = ({ item, index }) => {
-    console.log("jhdgutduyd", item)
     return (
       <View style={style.fltlistView}>
         <TouchableOpacity onPress={() => this.props.navigation.push("Home", { city: item.name, location: item.coord })}>
