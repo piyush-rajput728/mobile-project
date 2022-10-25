@@ -39,10 +39,6 @@ export default class ChangeCity extends Component {
         }
       }).catch((err) => console.log("jhjhhjhj", err))
   }
-
-
-
-
   render_Image = ({ item, index }) => {
     return (
       <View style={style.fltlistView}>
@@ -55,7 +51,6 @@ export default class ChangeCity extends Component {
     )
   }
   render() {
-
     return (
       <View style={style.container}>
         <View style={style.mainTxt}>
