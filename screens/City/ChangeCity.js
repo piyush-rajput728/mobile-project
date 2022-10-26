@@ -65,9 +65,7 @@ export default class ChangeCity extends Component {
             value={this.state.city}
             onChangeText={(d) => { this.setState({ city: d, }); this.getPost() }}
           />
-
         </View>
-
         {this.state.err == true ?
           <View style={{ justifyContent: "center", alignItems: "center", flex: 1 }}>
             <Text style={{ fontSize: 18, color: "#000" }}>No data found.</Text>
